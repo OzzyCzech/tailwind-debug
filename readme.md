@@ -5,7 +5,9 @@
 
 # Tailwind debug plugin
 
-Tailwind debug plugin adds a red dashed outline for the selected element.
+The Tailwind debug plugin is a helpful utility for web developers. This plugin allows users to quickly and easily add a red dashed outline over any HTML element.
+
+![What's about?](tailwind-debug.png)
 
 ## Installation
 
@@ -24,8 +26,15 @@ npm i tailwind-debug
 ```js
 // tailwind.config.js
 module.exports = {
-  plugins: [
-    require('tailwind-debug'),
-  ],
+	plugins: [
+		require('tailwind-debug'),
+	],
 }
+```
+
+then
+
+```html
+
+<div class="debug"></div>
 ```
