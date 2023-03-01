@@ -27,9 +27,9 @@ npm i tailwind-debug
 ```js
 // tailwind.config.js
 module.exports = {
-	plugins: [
-		require('tailwind-debug'),
-	],
+  plugins: [
+    require('tailwind-debug'),
+  ],
 }
 ```
 
