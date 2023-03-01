@@ -10,7 +10,13 @@ Tailwind debug plugin adds a red dashed outline for the selected element.
 ## Installation
 
 ```bash
-npm install tailwind-debug
+yarn add tailwind-debug
+```
+
+or
+
+```bash
+npm i tailwind-debug
 ```
 
 ## Usage
