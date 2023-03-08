@@ -17,8 +17,5 @@
 		"url": "https://github.com/OzzyCzech/tailwind-debug/issues",
 		"email": "roman@ozana.cz"
 	},
-	"license": "MIT",
-	"peerDependencies": {
-		"tailwindcss": "^1.0.0"
-	}
+	"license": "MIT"
 }
