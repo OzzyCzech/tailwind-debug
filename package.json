@@ -12,7 +12,12 @@
 		"type": "git",
 		"url": "git+https://github.com/OzzyCzech/tailwind-debug.git"
 	},
-	"keywords": ["tailwindcss", "tailwind", "plugin", "debug"],
+	"keywords": [
+		"tailwindcss",
+		"tailwind",
+		"plugin",
+		"debug"
+	],
 	"bugs": {
 		"url": "https://github.com/OzzyCzech/tailwind-debug/issues",
 		"email": "roman@ozana.cz"
