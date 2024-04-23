@@ -12,30 +12,31 @@ The Tailwind debug plugin is a helpful utility for web developers. This plugin a
 
 ## Installation
 
-```bash
+```shell
 yarn add tailwind-debug
 ```
 
 or
 
-```bash
+```shell
 npm i tailwind-debug
 ```
 
 ## Usage
 
+Add the plugin to your `tailwind.config.js` file:
+
 ```js
 // tailwind.config.js
 module.exports = {
-	plugins: [
-		require('tailwind-debug'),
-	],
+  plugins: [
+    require('tailwind-debug'),
+  ],
 }
 ```
 
-then
+then add the following class to your HTML element:
 
 ```html
-
 <div class="debug"></div>
 ```

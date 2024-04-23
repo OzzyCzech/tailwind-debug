@@ -1,26 +1,19 @@
 {
-	"name": "tailwind-debug",
-	"description": "Tailwind debug plugin adds a red dashed outline for the selected element",
-	"version": "1.0.0",
-	"author": {
-		"name": "Roman Ožana",
-		"email": "roman@ozana.cz",
-		"url": "https://ozana.cz"
-	},
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/OzzyCzech/tailwind-debug.git"
-	},
-	"keywords": [
-		"tailwindcss",
-		"tailwind",
-		"plugin",
-		"debug"
-	],
-	"bugs": {
-		"url": "https://github.com/OzzyCzech/tailwind-debug/issues",
-		"email": "roman@ozana.cz"
-	},
-	"license": "MIT"
+  "name": "tailwind-debug",
+  "description": "Tailwind debug plugin adds a red dashed outline for the selected element",
+  "version": "1.0.0",
+  "author": "Roman Ožana <roman@ozana.cz> (https://ozana.cz)",
+  "main": "index.js",
+  "repository": "github:OzzyCzech/tailwind-debug",
+  "license": "MIT",
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "plugin",
+    "debug"
+  ],
+  "bugs": {
+    "url": "https://github.com/OzzyCzech/tailwind-debug/issues",
+    "email": "roman@ozana.cz"
+  }
 }
