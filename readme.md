@@ -6,37 +6,60 @@
 
 # Tailwind debug plugin
 
-The Tailwind debug plugin is a helpful utility for web developers. This plugin allows users to quickly and easily add a red dashed outline over any HTML element.
+The Tailwind Debug Plugin is a valuable tool for web developers, enabling them to swiftly and effortlessly apply a `red dashed outline` to any HTML element.
 
 ![What's about?](tailwind-debug.png)
 
-## Installation
+## How to Add and Use the Tailwind Debug Plugin
+
+### **Step 1: Install the Plugin**
 
 ```shell
 yarn add tailwind-debug
-```
-
-or
-
-```shell
 npm i tailwind-debug
 ```
 
-## Usage
 
-Add the plugin to your `tailwind.config.js` file:
+Add the `tailwind-debug` plugin to your `tailwind.config.js` file:
 
 ```js
 // tailwind.config.js
 module.exports = {
-  plugins: [
-    require('tailwind-debug'),
-  ],
+	plugins: [
+		require('tailwind-debug'),
+	],
 }
 ```
 
-then add the following class to your HTML element:
+### Step 2: Apply Debug Classes
+
+To debug an HTML element, add the `debug` class:
 
 ```html
 <div class="debug"></div>
 ```
+
+For debugging child elements, use the `*:debug` class:
+
+```html
+<ul class="*:debug">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+```
+
+### Step 3: Choose Debug Colors
+
+There are multiple color options available for debugging. Apply them by using the corresponding class:
+
+```html
+<div class="debug-red"></div>
+<div class="debug-green"></div>
+<div class="debug-blue"></div>
+<div class="debug-yellow"></div>
+```
+
+## License
+
+[MIT](/LICENSE)
