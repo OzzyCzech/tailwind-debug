@@ -4,9 +4,9 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/min/tailwind-debug?style=for-the-badge)
 [![Last Commit](https://img.shields.io/github/last-commit/OzzyCzech/tailwind-debug?style=for-the-badge)](https://github.com/OzzyCzech/tailwind-debug/commit/main)
 
-# Tailwind debug plugin
+# Tailwind Debug Plugin
 
-The Tailwind Debug Plugin is a valuable tool for web developers, enabling them to swiftly and effortlessly apply a `red dashed outline` to any HTML element.
+The **Tailwind Debug Plugin** is a valuable tool for web developers, enabling them to swiftly and effortlessly apply a `red dashed outline` to any HTML element.
 
 ![What's about?](tailwind-debug.png)
 
