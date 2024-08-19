@@ -12,8 +12,14 @@
     "plugin",
     "debug"
   ],
+  "scripts": {
+    "release": "np --no-release-draft"
+  },
   "bugs": {
     "url": "https://github.com/OzzyCzech/tailwind-debug/issues",
     "email": "roman@ozana.cz"
+  },
+  "devDependencies": {
+    "np": "^10.0.7"
   }
 }
