@@ -16,7 +16,7 @@
     "index.js"
   ],
   "scripts": {
-    "release": "np --no-release-draft"
+    "release": "np --no-tests"
   },
   "bugs": {
     "url": "https://github.com/OzzyCzech/tailwind-debug/issues",
