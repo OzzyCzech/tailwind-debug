@@ -12,6 +12,9 @@
     "plugin",
     "debug"
   ],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "release": "np --no-release-draft"
   },
