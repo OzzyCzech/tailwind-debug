@@ -6,7 +6,8 @@
 
 # Tailwind Debug Plugin
 
-The **Tailwind Debug Plugin** is a valuable tool for web developers, enabling them to swiftly and effortlessly apply a `red dashed outline` to any HTML element.
+The **Tailwind Debug Plugin** helps web developers quickly highlight any HTML element with a `red dashed outline` for
+debugging purposes.
 
 ![What's about?](tailwind-debug.png)
 
@@ -16,9 +17,11 @@ The **Tailwind Debug Plugin** is a valuable tool for web developers, enabling th
 
 ```shell
 yarn add tailwind-debug
-npm i tailwind-debug
 ```
 
+```shell
+npm i tailwind-debug
+```
 
 Add the `tailwind-debug` plugin to your `tailwind.config.js` file:
 
@@ -43,9 +46,9 @@ For debugging child elements, use the `*:debug` class:
 
 ```html
 <ul class="*:debug">
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
 </ul>
 ```
 
