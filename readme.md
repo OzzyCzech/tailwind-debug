@@ -20,15 +20,11 @@ yarn add tailwind-debug
 npm i tailwind-debug
 ```
 
-Add the `tailwind-debug` plugin to your `tailwind.config.js` file:
+Add the `tailwind-debug` plugin to your `style.css` file:
 
-```js
-// tailwind.config.js
-module.exports = {
-  plugins: [
-    require('tailwind-debug'),
-  ],
-}
+```css
+@import "tailwindcss";
+@plugin "tailwind-debug";
 ```
 
 ### Step 2: Apply Debug Classes
