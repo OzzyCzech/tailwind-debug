@@ -17,9 +17,6 @@ debugging purposes.
 
 ```shell
 yarn add tailwind-debug
-```
-
-```shell
 npm i tailwind-debug
 ```
 
