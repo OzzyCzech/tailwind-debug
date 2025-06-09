@@ -23,6 +23,6 @@
     "email": "roman@ozana.cz"
   },
   "devDependencies": {
-    "np": "^10.0.7"
+    "np": "^10.2.0"
   }
 }
