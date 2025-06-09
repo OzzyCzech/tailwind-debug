@@ -28,9 +28,9 @@ Add the `tailwind-debug` plugin to your `tailwind.config.js` file:
 ```js
 // tailwind.config.js
 module.exports = {
-	plugins: [
-		require('tailwind-debug'),
-	],
+  plugins: [
+    require('tailwind-debug'),
+  ],
 }
 ```
 
@@ -46,9 +46,9 @@ For debugging child elements, use the `*:debug` class:
 
 ```html
 <ul class="*:debug">
-	<li>Item 1</li>
-	<li>Item 2</li>
-	<li>Item 3</li>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
 </ul>
 ```
 
