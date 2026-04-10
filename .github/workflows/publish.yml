@@ -23,9 +23,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
           cache: npm
 
-      - run: npm ci
-        if: hashFiles('package-lock.json') != ''
-
       - name: Publish to npm
         run: npm publish --provenance --access public
 
