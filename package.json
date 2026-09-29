@@ -22,13 +22,18 @@
     "index.js"
   ],
   "scripts": {
+    "test": "node --test test.js",
     "release": "np --no-tests"
   },
   "bugs": {
     "url": "https://github.com/OzzyCzech/tailwind-debug/issues",
     "email": "roman@ozana.cz"
   },
+  "peerDependencies": {
+    "tailwindcss": "^3.4.0 || ^4.0.0"
+  },
   "devDependencies": {
-    "np": "^12.1.1"
+    "np": "^12.1.1",
+    "tailwindcss": "^4.3.3"
   }
 }
