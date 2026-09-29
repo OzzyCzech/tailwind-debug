@@ -16,7 +16,6 @@ debugging purposes.
 ### **Step 1: Install the Plugin**
 
 ```shell
-yarn add tailwind-debug
 npm i tailwind-debug
 ```
 
